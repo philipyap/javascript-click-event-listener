@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 50%;
+    width: 50%;
+    margin: 50px;
+
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.menu {
+    cursor: pointer;
+    user-select: none;
+}
+
+.open {
+    display: none;
+}
+
+.closed {
+    display: none;
+}
+
+.active {
+    display: block;
+}
