@@ -24,11 +24,11 @@ body {
     user-select: none;
 }
 
-.open {
+.lunch-menu {
     display: none;
 }
 
-.closed {
+.lunch-title {
     display: none;
 }
 
